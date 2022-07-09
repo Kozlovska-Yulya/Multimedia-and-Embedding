@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .image-container {
   position: relative;
+  display: flex;
 }
 
 .image {
-  display: block;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -18,7 +22,7 @@
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .image-button:hover {
