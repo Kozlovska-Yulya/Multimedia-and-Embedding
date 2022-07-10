@@ -8,7 +8,7 @@
 }
 
 .image {
-  margin: 0 auto;
+  margin: auto;
   max-width: 100%;
 }
 .image-button {
@@ -21,6 +21,7 @@
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 50px;
   text-align: center;
   opacity: 0.5;
 }
